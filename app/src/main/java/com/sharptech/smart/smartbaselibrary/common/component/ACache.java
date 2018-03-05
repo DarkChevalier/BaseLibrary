@@ -603,7 +603,7 @@ public class ACache {
     /**
      * @author 杨福海（michael） www.yangfuhai.com
      * @version 1.0
-     * @title 缓存管理器
+     * title 缓存管理器
      */
     public class ACacheManager {
         private final AtomicLong cacheSize;
@@ -747,7 +747,7 @@ public class ACache {
     /**
      * @author 杨福海（michael） www.yangfuhai.com
      * @version 1.0
-     * @title 时间计算工具类
+     * title 时间计算工具类
      */
     private static class Utils {
 

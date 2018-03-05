@@ -5,7 +5,7 @@ import com.sharptech.smart.core.base.view.IBaseView;
 /**
  * Created by sunzhibin on 2018/1/2.
  *
- * @description Presenter工厂实现类
+ * description Presenter工厂实现类
  */
 
 public class PresenterFactoryImpl<V extends IBaseView, P extends BasePresenter<V>> implements IPresenterFactory<V, P> {

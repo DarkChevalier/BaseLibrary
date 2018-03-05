@@ -6,8 +6,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 
 /**
- * @创建者 CSDN_LQR
- * @描述 线程池工厂
+ * @author: CSDN_LQR
+ * descripre 线程池工厂
  */
 public class ThreadPoolFactory {
 

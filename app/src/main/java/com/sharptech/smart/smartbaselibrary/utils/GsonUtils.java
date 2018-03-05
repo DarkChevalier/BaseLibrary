@@ -32,13 +32,12 @@ public class GsonUtils {
      * 2. Class<T> cls 方式转换
      *
      * @param json
-     * @return List<T>
+     * @return List
      *
      * <pre>
      */
     public static <T> List<T> convertList(String json, TypeToken<List<T>> token) {
         try {
-
             if (TextUtils.isEmpty(json)) {
                 return new ArrayList();
             }
@@ -55,14 +54,14 @@ public class GsonUtils {
     }
 
     /**
-     * <pre>
+     * <p>
      * Json格式转换, 由JSON字符串转化到制定类型T
      *
      * @param json
      * @param cls
      * @return T
      *
-     * <pre>
+     * </p>
      */
     public static <T> T parseObject(String json, Class<T> cls) {
         try {
@@ -83,12 +82,12 @@ public class GsonUtils {
     }
 
     /**
-     * <pre>
+     * <p>
      * java对象转化JSON
      *
      * @return String
      *
-     * <pre>
+     * <p>
      */
     public static String toJson(Object obj) {
         try {
@@ -134,10 +133,10 @@ public class GsonUtils {
     }
 
     /**
-     * 将json数据转成List<Map<String, Object>>
+     * 将json数据转成 "List<Map<String, Object>>"
      *
      * @param json 需要解析的Json数据
-     * @return List<Map<String, Object>>
+     * @return <a> List<Map<String, Object>> </a>
      */
     public static List<Map<String, Object>> getListMaps(String json) {
         List<Map<String, Object>> maps = new ArrayList<Map<String, Object>>();

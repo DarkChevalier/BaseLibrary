@@ -2,9 +2,8 @@ package com.sharptech.smart.smartbaselibrary.base.mode;
 
 /**
  * @author: sunzhibin
- * @date: 2018/1/2.
- * @description:
- * @e-mail:
+ * date: 2018/1/2.
+ * description: description 基础网路解析类
  */
 
 public class BaseResultBean<T> {

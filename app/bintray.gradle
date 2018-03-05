@@ -13,8 +13,8 @@ install {
             project {
                 packaging 'aar'
                 // Add your description here
-                name 'ModularizationArchitecture'
-                description 'A modularization architecture for Android program.'
+                name 'BaseLibrary'
+                description 'A baseLibrary for Android program.'
                 url siteUrl
                 // Set your license
                 licenses {
@@ -25,9 +25,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'spiny'        //填写的一些基本信息
-                        name 'spiny'
-                        email 'spiny.tech@gmail.com'
+                        id 'luminous'        //填写的一些基本信息
+                        name 'luminous'
+                        email 'sunzhibinforever@gmail.com'
                     }
                 }
                 scm {
@@ -62,8 +62,8 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "ModularizationArchitecture"
-        name = "core"    //发布到JCenter上的项目名字
+        repo = "BaseLibrary"
+        name = "BaseLibrary"    //发布到JCenter上的项目名字
 //        userOrg = properties.getProperty("bintray.organizationId")
         websiteUrl = siteUrl
         vcsUrl = gitUrl

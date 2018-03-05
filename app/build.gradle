@@ -47,3 +47,5 @@ dependencies {
     //gson
     implementation rootProject.ext.dependencies["gson"]
 }
+apply from: "bintray.gradle"
+

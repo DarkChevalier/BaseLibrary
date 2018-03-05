@@ -21,9 +21,8 @@ import com.sharptech.smart.smartbaselibrary.utils.PermissionReq;
 
 /**
  * @author: sunzhibin
- * @date: 2018/1/3.
- * @description:
- * @e-mail:
+ * date: 2018/1/3.
+ * description: description
  */
 public abstract class BaseAbstractActivity<V extends IBaseView, P extends BasePresenter<V>> extends FragmentActivity implements IPresenterProxyInterface<V, P>, IBaseView {
     private static final String PRESENTER_SAVE_KEY = "presenter_save_key";

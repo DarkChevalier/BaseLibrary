@@ -14,9 +14,9 @@ import io.reactivex.schedulers.Schedulers;
 
 /**
  * @author: sunzhibin
- * @date: 2018/1/3.
- * @description:
- * @e-mail:
+ * date: 2018/1/3.
+ * description: description
+
  */
 
 public class RxUtils {

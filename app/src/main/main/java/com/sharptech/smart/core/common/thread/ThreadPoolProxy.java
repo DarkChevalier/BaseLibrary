@@ -10,8 +10,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @创建者 CSDN_LQR
- * @描述 创建线程池，执行任务，提交任务
+ * @author: CSDN_LQR
+ * descripre 创建线程池，执行任务，提交任务
  */
 public class ThreadPoolProxy {
     /**

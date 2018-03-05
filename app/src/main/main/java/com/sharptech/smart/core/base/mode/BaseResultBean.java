@@ -2,9 +2,9 @@ package com.sharptech.smart.core.base.mode;
 
 /**
  * @author: sunzhibin
- * @date: 2018/1/2.
- * @description:
- * @e-mail:
+ * date: 2018/1/2.
+ * description: description
+
  */
 
 public class BaseResultBean<T> {

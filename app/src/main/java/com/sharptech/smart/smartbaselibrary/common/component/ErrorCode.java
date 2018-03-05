@@ -2,9 +2,9 @@ package com.sharptech.smart.smartbaselibrary.common.component;
 
 /**
  * @author: sunzhibin
- * @date: 2018/2/26.
- * @description:
- * @e-mail:
+ * date: 2018/2/26.
+ * description: description
+
  */
 
 public class ErrorCode {

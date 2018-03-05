@@ -6,9 +6,9 @@ import java.io.File;
 
 /**
  * @author: sunzhibin
- * @date: 2018/2/6.
- * @description:
- * @e-mail:
+ * date: 2018/2/6.
+ * description: description
+
  */
 
 public class Constants {

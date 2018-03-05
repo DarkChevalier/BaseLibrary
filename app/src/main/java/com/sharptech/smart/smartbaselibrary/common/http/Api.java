@@ -2,9 +2,9 @@ package com.sharptech.smart.smartbaselibrary.common.http;
 
 /**
  * @author: sunzhibin
- * @date: 2018/1/3.
- * @description:
- * @e-mail:
+ * date: 2018/1/3.
+ * description: description
+
  */
 
 public interface Api {

@@ -8,8 +8,8 @@ import java.lang.reflect.Modifier;
 
 /**
  * @author 刘镓旗
- * @date 2017/11/16
- * @description
+ * date 2017/11/16
+ * description
  */
 public class ViewFind {
     public static void bind(Activity activity) {

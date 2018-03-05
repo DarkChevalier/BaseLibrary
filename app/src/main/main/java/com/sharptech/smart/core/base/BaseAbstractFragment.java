@@ -17,9 +17,9 @@ import com.sharptech.smart.core.base.view.IBaseView;
 
 /**
  * @author: sunzhibin
- * @date: 2018/1/3.
- * @description:
- * @e-mail:
+ * date: 2018/1/3.
+ * description: description
+
  */
 
 public abstract class BaseAbstractFragment<V extends IBaseView, P extends BasePresenter<V>> extends Fragment implements IPresenterProxyInterface<V, P>, IBaseView {

@@ -8,8 +8,8 @@ import java.lang.annotation.RetentionPolicy;
 
 /**
  * @author 刘镓旗
- * @date 2017/11/17
- * @description 标注创建Presenter的注解
+ * date 2017/11/17
+ * description 标注创建Presenter的注解
  */
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
