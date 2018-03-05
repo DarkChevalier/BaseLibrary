@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
-import com.sharptech.smart.core.R;
+import com.sharptech.smart.smartbaselibrary.R;
 
 import java.io.File;
 

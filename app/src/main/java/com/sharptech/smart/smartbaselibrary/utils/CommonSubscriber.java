@@ -1,7 +1,5 @@
 package com.sharptech.smart.smartbaselibrary.utils;
-
-
-import com.sharptech.smart.core.base.view.IBaseView;
+import com.sharptech.smart.smartbaselibrary.base.view.IBaseView;
 
 import io.reactivex.subscribers.ResourceSubscriber;
 

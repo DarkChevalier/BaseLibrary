@@ -5,7 +5,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-import com.sharptech.smart.core.utils.ToastUtil;
+import com.sharptech.smart.smartbaselibrary.utils.ToastUtil;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -16,7 +16,7 @@ import java.io.Writer;
  */
 public class CrashHandler implements Thread.UncaughtExceptionHandler {
 
-    private static Thread.UncaughtExceptionHandler defaultHandler = null;
+    private static Thread.UncaughtExceptionHandler sDefaultHandler = null;
 
     private Context context = null;
 
@@ -30,7 +30,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
      * 初始化,设置该CrashHandler为程序的默认处理器
      */
     public static void init(CrashHandler crashHandler) {
-        defaultHandler = Thread.getDefaultUncaughtExceptionHandler();
+        sDefaultHandler = Thread.getDefaultUncaughtExceptionHandler();
         Thread.setDefaultUncaughtExceptionHandler(crashHandler);
     }
 
@@ -41,7 +41,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
         Log.e(TAG, collectCrashDeviceInfo());
         Log.e(TAG, getCrashInfo(ex));
         // 调用系统错误机制
-        defaultHandler.uncaughtException(thread, ex);
+        sDefaultHandler.uncaughtException(thread, ex);
         ToastUtil.shortShow(context, "抱歉,程序发生异常即将退出");
 //        App.getInstance().exitApp();
     }

@@ -2,10 +2,7 @@ package com.sharptech.smart.smartbaselibrary.utils.loadimageview;
 
 import android.graphics.Bitmap;
 import android.support.annotation.DrawableRes;
-
-import com.sharptech.smart.core.R;
-
-
+import com.sharptech.smart.smartbaselibrary.R;
 public class LoaderOptions {
     protected int placeholderResId;
     protected int errorResId;

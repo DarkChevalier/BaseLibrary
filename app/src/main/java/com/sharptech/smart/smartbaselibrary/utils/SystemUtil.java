@@ -14,7 +14,7 @@ import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.sharptech.smart.core.common.component.Constants;
+import com.sharptech.smart.smartbaselibrary.common.component.Constants;
 
 import java.io.BufferedReader;
 import java.io.File;

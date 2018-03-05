@@ -1,7 +1,7 @@
 package com.sharptech.smart.smartbaselibrary.common.component;
 
-import com.sharptech.smart.core.base.mode.BaseResultBean;
-import com.sharptech.smart.core.common.exception.ApiException;
+import com.sharptech.smart.smartbaselibrary.base.mode.BaseResultBean;
+import com.sharptech.smart.smartbaselibrary.common.exception.ApiException;
 
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
